@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Container from "./components/ItemListContainer";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <h1>Bienvenidos</h1>
       </div>
       <div>
-        <Container />
+        <ItemListContainer />
       </div>
       <footer>
         <p>Hakushi © 2025 Todos los derechos reservados</p>

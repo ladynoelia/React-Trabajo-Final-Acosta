@@ -98,9 +98,7 @@ function NavBar() {
           </form>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a href="#">
-                <CartWidget />
-              </a>
+              <a href="#">{/* <CartWidget /> */}</a>
             </li>
           </ul>
         </div>

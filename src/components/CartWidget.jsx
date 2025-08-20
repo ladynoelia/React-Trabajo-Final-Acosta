@@ -13,3 +13,8 @@ function CartWidget() {
 }
 
 export default CartWidget;
+{
+  /* <div>
+  <span>0</span>
+</div> */
+}
