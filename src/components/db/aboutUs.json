@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Melisa Acosta",
+    "description": "delectus aut autem delectus aut autem delectus aut autem delectus aut autem delectus aut autem",
+    "pictureUrl": "./src/assets/images/owners/fushigidane.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Noelia Acosta",
+    "description": "delectus aut autem delectus aut autem delectus aut autem delectus aut autem delectus aut autem",
+    "pictureUrl": "./src/assets/images/owners/hitokage.png"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "title": "Fushigidane",
+    "description": "Aprox. Size: D: 20 cm, A: 16 cm, H: 16 cm",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/001-1.png",
+    "picture2Url": "./src/assets/images/products/pokemon/001-2.png",
+    "picture3Url": "./src/assets/images/products/pokemon/001-3.png",
+    "stock": 50
+  },
+  {
+    "id": 4,
+    "title": "Hitokage",
+    "description": "Aprox. Size: L: 14 cm, A: 12.7 cm, H: 17.80 cm",
+    "price": 4000,
+    "picture1Url": "./src/assets/images/products/pokemon/004-1.png",
+    "picture2Url": "./src/assets/images/products/pokemon/004-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/004-3.jpg",
+    "stock": 50
+  },
+  {
+    "id": 7,
+    "title": "Zenigane",
+    "description": "Aprox. Size: L: 15.24 cm, A: 10.16 cm, H: 17.80 cm",
+    "price": 2000,
+    "picture1Url": "./src/assets/images/products/pokemon/007-1.jpeg",
+    "picture2Url": "./src/assets/images/products/pokemon/007-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/007-3.jpg",
+    "stock": 20
+  },
+  {
+    "id": 25,
+    "title": "Pikachu",
+    "description": "Aprox. Size: L: 17.50 cm, A: 10.50 cm, H: 22.50 cm",
+    "price": 4000,
+    "picture1Url": "./src/assets/images/products/pokemon/025-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/025-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/025-3.jpg",
+    "stock": 40
+  },
+  {
+    "id": 26,
+    "title": "Pikachu",
+    "description": "Aprox. Size: L: 18 cm, A: 23 cm, H: 23 cm",
+    "price": 4000,
+    "picture1Url": "./src/assets/images/products/pokemon/026-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/026-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/026-3.jpg",
+    "stock": 40
+  },
+  {
+    "id": 52,
+    "title": "Nyaasu",
+    "description": "Aprox. Size: L: 12 cm, A: 14 cm, H: 20 cm",
+    "price": 4000,
+    "picture1Url": "./src/assets/images/products/pokemon/052-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/052-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/052-3.jpg",
+    "stock": 40
+  },
+  {
+    "id": 54,
+    "title": "Koduck",
+    "description": "delectus aut autem",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/054-1.jpg",
+    "stock": 50
+  },
+  {
+    "id": 94,
+    "title": "Gengah",
+    "description": "Aprox. Size: H: 19.05 cm",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/094-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/094-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/094-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 129,
+    "title": "Koikingu",
+    "description": "Aprox. Size: D: 26 cm, A: 12 cm, H: 21 cm",
+    "price": 3500,
+    "picture1Url": "./src/assets/images/products/pokemon/129-1.png",
+    "picture2Url": "./src/assets/images/products/pokemon/129-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/129-3.jpg",
+    "stock": 20
+  },
+  {
+    "id": 133,
+    "title": "Iibui",
+    "description": "Aprox. Size: H: 22.90 cm",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/133-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/133-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/133-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 151,
+    "title": "Myuu",
+    "description": "Aprox. Size: H: 15.24 cm",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/151-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/151-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/151-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 216,
+    "title": "Himeguma",
+    "description": "Aprox. Size: L: 12cm, A: 20 cm, H: 20 cm",
+    "price": 4000,
+    "picture1Url": "./src/assets/images/products/pokemon/216-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/216-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/216-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 722,
+    "title": "Mokuroh",
+    "description": "Aprox. Size: H: 22 cm",
+    "price": 5300,
+    "picture1Url": "./src/assets/images/products/pokemon/722-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/722-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/722-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 778,
+    "title": "Mimikkyu",
+    "description": "Aprox. Size: L: 18, A: 21, H: 23 cm",
+    "price": 5300,
+    "picture1Url": "./src/assets/images/products/pokemon/778-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/778-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/778-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 810,
+    "title": "Sarunori",
+    "description": "Aprox. Size: L: 18 cm, A: 18 cm, H: 24.50 cm",
+    "price": 4900,
+    "picture1Url": "./src/assets/images/products/pokemon/810-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/810-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/810-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 813,
+    "title": "Hibanii",
+    "description": "Aprox. Size: L: 17.50 cm, A: 14 cm, H: 28 cm",
+    "price": 4300,
+    "picture1Url": "./src/assets/images/products/pokemon/813-1.png",
+    "picture2Url": "./src/assets/images/products/pokemon/813-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/813-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 816,
+    "title": "Messon",
+    "description": "Aprox. Size: L: 16 cm, A: 14 cm, H: 28.50 cm",
+    "price": 4300,
+    "picture1Url": "./src/assets/images/products/pokemon/816-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/816-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/816-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 906,
+    "title": "Nyaoha",
+    "description": "Aprox. Size: L: 21 cm, A: 17 cm, H: 17.50 cm",
+    "price": 5000,
+    "picture1Url": "./src/assets/images/products/pokemon/906-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/906-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/906-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 909,
+    "title": "Hogeta",
+    "description": "Aprox. Size: H: 22.80 cm",
+    "price": 4200,
+    "picture1Url": "./src/assets/images/products/pokemon/909-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/909-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/909-3.jpg",
+    "stock": 30
+  },
+  {
+    "id": 912,
+    "title": "Kuwassu",
+    "description": "Aprox. Size: H: 17.80 cm",
+    "price": 4300,
+    "picture1Url": "./src/assets/images/products/pokemon/912-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/912-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/912-3.jpg",
+    "stock": 10
+  }
+]

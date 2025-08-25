@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import Card from "./Card";
+import Item from "./Item";
 
 function ItemListContainer() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   const getProducts = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(async () => {
-        const resp = await fetch("./src/components/mock.json");
+        const resp = await fetch("./src/components/db/mock.json");
         const data = await resp.json();
         resolve(data);
       }, 2000);
@@ -34,13 +34,7 @@ function ItemListContainer() {
       ) : (
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {products.map((product) => (
-            <Card
-              key={product.id}
-              title={product.title}
-              pictureUrl={product.pictureUrl}
-              description={product.description}
-              price={product.price}
-            />
+            <Item key={product.id} product={product} />
           ))}
         </div>
       )}

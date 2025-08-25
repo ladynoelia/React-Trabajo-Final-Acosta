@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 function NavBar() {
@@ -12,7 +13,7 @@ function NavBar() {
             height="24"
             className="d-inline-block align-text-top"
           />
-          Hakushi
+          FuwaFawa
         </a>
         <button
           className="navbar-toggler"
@@ -29,14 +30,14 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link active" aria-current="page" to="/">
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/about">
                 Sobre nosotros
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -50,9 +51,9 @@ function NavBar() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Producto 1
-                  </a>
+                  <Link className="dropdown-item" to="/product1">
+                    Sekiguchi Pokemon
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
@@ -98,7 +99,7 @@ function NavBar() {
           </form>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a href="#">{/* <CartWidget /> */}</a>
+              <CartWidget />
             </li>
           </ul>
         </div>
