@@ -1,0 +1,158 @@
+{
+"id": 2021
+"collection": "Plush"
+"title": "Agumon"
+"Price": 6605
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W12×D14×H16 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2022
+"title": "Gabumon"
+"Price": 10200
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W12×D14×H16 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2023 - DG03
+"collection": "Plush"
+"title": "Biyomon"
+"Price": 5807
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W12×D12×H20 cm, Fecha de lanzamiento: 2018/11.
+},
+{
+"id": 2024
+"collection": "Plush"
+"title": "Palmon"
+"Price": 6030
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W18×D12×H21 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2025
+"collection": "Plush"
+"title": "Gomamon"
+"Price": 8296
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W14×D17×H17 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2026
+"collection": "Plush"
+"title": "Tentomon"
+"Price": 6711
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W14×D17×H14 cm, Fecha de lanzamiento: 2022.
+},
+{
+"id": 2027
+"collection": "Plush"
+"title": "Patamon"
+"Price": 3456
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W9×D14×H13 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2028
+"collection": "Plush"
+"title": "Tailmon"
+"Price": 8264
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W15×D12×H18 cm, Fecha de lanzamiento: 2019/03.
+},
+{
+"id": 2029
+"collection": "Plush"
+"title": "Wizardmon"
+"Price": 5520
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W13×D14×H24 cm, Fecha de lanzamiento: 2020/02.
+},
+{
+"id": 2030
+"title": "Veemon"
+"Price": 8264
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W20×D18×H11 cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2031
+"title": "Wormmon"
+"Price": 9646
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W20×D18×H11 cm, Fecha de lanzamiento: 2020/05.
+},
+{
+"id": 2032
+"title": "Guilmon"
+"Price": 11061
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W21×D17×H18 cm, Fecha de lanzamiento: 2020/02.
+},
+{
+"id": 2033
+"title": "Renamon"
+"Price": 5424
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W13×D16×H28.50 cm, Fecha de lanzamiento: 2020.
+},
+{
+"id": 2034
+"title": "Terriermon"
+"Price": 8264
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W20×D16×H5 cm, Fecha de lanzamiento: 2020/02.
+},
+{
+"id": 2035
+"title": "Culumon"
+"Price": 4531
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W20×D16×H8cm, Fecha de lanzamiento: 2021/07.
+},
+{
+"id": 2036
+"title": "Impmon"
+"Price": 8955
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W18.50×D19×H18cm, Fecha de lanzamiento: 2021/07.
+},
+{
+"id": 2037
+"title": "Lopmon"
+"Price": 12412
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W27×D20×H14cm, Fecha de lanzamiento: 2021/07.
+},
+{
+"id": 2038
+"title": "Koromon"
+"Price": 3148
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W11×D10.50×H10cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2039
+"title": "Tsunomon"
+"Price": 3180
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W21×D15×H11cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2040
+"title": "Yokomon"
+"Price": 3137
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W11.50×D14.50×H12.50cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2041
+"title": "Tanemon"
+"Price": 4945
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W21×D15×H11cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2042
+"title": "Bukamon"
+"Price": 3595
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W22×D21×H15cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2043
+"title": "Motimon"
+"Price": 4531
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W18×D14×H7cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2044
+"title": "Tokomon"
+"Price": 4416
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W21×D15×H11cm, Fecha de lanzamiento: 2022/09.
+},
+{
+"id": 2045
+"title": "Salamon"
+"Price": 7711
+"Description":Fabricante: San-ei, Material: Poliéster, Tamaño: W21×D19×H12cm, Fecha de lanzamiento: 2022/09.
+},

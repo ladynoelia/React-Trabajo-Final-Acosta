@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Item({ product }) {
   return (
     <div className="col">
-      <div className="card">
+      <div className="card h-100">
         <img
           src={product.picture1Url}
           className="card-img-top"
@@ -14,7 +14,7 @@ function Item({ product }) {
           <p className="card-text">{product.description}</p>
           <p>$ {product.price}</p>
           <Link to={`/product/${product.id}`}>
-            <button className="btn btn-primary">Ver más</button>
+            <button className="btn btn-vermas">Ver más</button>
           </Link>
         </div>
       </div>

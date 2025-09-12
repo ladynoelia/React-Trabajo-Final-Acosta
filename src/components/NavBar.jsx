@@ -57,7 +57,12 @@ function NavBar() {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Producto 2
+                    Digimon Adventure: Plush
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Digimon Adventure: Stuffed Collection
                   </a>
                 </li>
                 {/* <li>

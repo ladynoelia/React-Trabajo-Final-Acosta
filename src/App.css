@@ -1,3 +1,10 @@
+/* Colors
+Fondos: #f6ebdf,
+Rosa: #f3b5ba
+Rojo: #f76b69
+Azul: #185ea3
+Verdeagua: #3e91a3 */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +12,9 @@
 }
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 0.5rem;
   text-align: center;
+  background-color: #f6ebdf;
 }
 
 h1 {
@@ -18,8 +24,29 @@ h1 {
 }
 
 footer {
-  background-color: antiquewhite;
+  background-color: #185ea3;
+  color: #f6ebdf;
   padding: 10px;
+}
+/* ItemListContainer */
+.row {
+  margin: 5px;
+}
+/* Tarjetas de productos */
+.card {
+  background-color: white;
+  border: 1px solid #3e91a3;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.card-img-top {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.btn-vermas {
+  background-color: #3e91a3;
 }
 /* 
 .logo {

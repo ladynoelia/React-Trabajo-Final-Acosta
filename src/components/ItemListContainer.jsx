@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
+import { getItems } from "../services/products";
 
 function ItemListContainer() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const getProducts = () => {
+  /*   const getProducts = () => {
     return new Promise((resolve) => {
       setTimeout(async () => {
         const resp = await fetch("./src/components/db/mock.json");
@@ -13,10 +14,11 @@ function ItemListContainer() {
         resolve(data);
       }, 2000);
     });
-  };
+  }; */
 
   useEffect(() => {
-    getProducts().then((data) => {
+    /* uploadItems(); */
+    getItems().then((data) => {
       setProducts(data);
       setLoading(false);
     });
@@ -32,7 +34,7 @@ function ItemListContainer() {
           <h2 className="text-center">Cargando productos...</h2>
         </div>
       ) : (
-        <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row row-cols-1 row-cols-md-5 g-4">
           {products.map((product) => (
             <Item key={product.id} product={product} />
           ))}
