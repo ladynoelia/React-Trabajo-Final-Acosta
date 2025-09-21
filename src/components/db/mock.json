@@ -69,9 +69,11 @@
     "id": 54,
     "collection": "Sekiguchi Pokemon",
     "title": "Koduck",
-    "description": "delectus aut autem",
+    "description": "Aprox. Size: L: 18 cm, A: 20 cm, H: 19 cm",
     "price": 5000,
     "picture1Url": "./src/assets/images/products/pokemon/054-1.jpg",
+    "picture2Url": "./src/assets/images/products/pokemon/054-2.jpg",
+    "picture3Url": "./src/assets/images/products/pokemon/054-3.jpg",
     "stock": 50
   },
   {
@@ -168,7 +170,7 @@
     "title": "Hibanii",
     "description": "Aprox. Size: L: 17.50 cm, A: 14 cm, H: 28 cm",
     "price": 4300,
-    "picture1Url": "./src/assets/images/products/pokemon/813-1.png",
+    "picture1Url": "./src/assets/images/products/pokemon/813-1.jpg",
     "picture2Url": "./src/assets/images/products/pokemon/813-2.jpg",
     "picture3Url": "./src/assets/images/products/pokemon/813-3.jpg",
     "stock": 30

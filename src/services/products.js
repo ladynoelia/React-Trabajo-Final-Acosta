@@ -1,13 +1,19 @@
-import { getDocs, collection, getDoc, doc, addDoc } from "firebase/firestore";
+import {
+  getDocs,
+  collection,
+  getDoc,
+  doc,
+  query,
+  where,
+  addDoc,
+} from "firebase/firestore";
 import { db } from "../utils/firebase";
-/* import products from "../components/db/mock.json"; */
 
 const getItems = async () => {
   await new Promise((resolve) => {
     setTimeout(resolve, 1000);
   });
   const querySnapshot = await getDocs(collection(db, "items"));
-
   const products = querySnapshot.docs.map((elem) => {
     return {
       id: elem.id,
@@ -34,29 +40,24 @@ const getItemById = async (id) => {
   }
 };
 
-/* const uploadItems = async () => {
+const getItemsByField = async (field, operator, value) => {
   try {
     const productsCol = collection(db, "items");
-
-    for (const product of products) {
-      await addDoc(productsCol, product);
-      console.log(`✅ Producto subido: ${product.title}`);
-    }
-
-    console.log("🚀 Todos los productos fueron subidos a Firestore.");
+    const q = query(productsCol, where(field, operator, value));
+    const snapshot = await getDocs(q);
+    return snapshot.docs.map((doc) => ({
+      id: doc.id,
+      ...doc.data(),
+    }));
   } catch (error) {
-    console.error("❌ Error subiendo productos:", error);
+    console.error("Error consultando productos:", error);
+    return [];
   }
-}; */
+};
 
-export { getItems, getItemById };
+const saveCart = async (order) => {
+  const docRef = await addDoc(collection(db, "orders"), order);
+  return docRef.id;
+};
 
-/*   const getProducts = () => {
-    return new Promise((resolve) => {
-      setTimeout(async () => {
-        const resp = await fetch("./src/components/db/mock.json");
-        const data = await resp.json();
-        resolve(data);
-      }, 2000);
-    });
-  }; */
+export { getItems, getItemById, getItemsByField, saveCart };

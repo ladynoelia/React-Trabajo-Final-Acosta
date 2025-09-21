@@ -5,20 +5,45 @@ const CartContext = createContext();
 const CartProvider = ({ children }) => {
   const [cartList, setCartList] = useState([]);
 
-  const addToCart = (id, qty) => {
-    //funcion de agregasr al carrito según el id.
+  const addToCart = (product, qty) => {
+    if (qty <= 0) return;
+    setCartList((prev) => {
+      const existingItem = prev.find((item) => item.id === product.id);
+      if (existingItem) {
+        const newQty = existingItem.qty + qty;
+        if (newQty > product.stock) {
+          return prev.map((item) =>
+            item.id === product.id ? { ...item, qty: product.stock } : item
+          );
+        } else {
+          return prev.map((item) =>
+            item.id === product.id ? { ...item, qty: newQty } : item
+          );
+        }
+      } else {
+        return [...prev, { ...product, qty }];
+      }
+    });
   };
 
   const deleteItem = (id) => {
-    //función de borrar un item del array carrito
+    setCartList((prev) => prev.filter((item) => item.id !== id));
   };
 
   const deleteAllItems = () => {
-    //función para vaciar el array carrito
+    setCartList([]);
+  };
+
+  const updateQty = (id, newQty) => {
+    setCartList((prev) =>
+      prev.map((item) => (item.id === id ? { ...item, qty: newQty } : item))
+    );
   };
 
   return (
-    <CartContext.Provider value={{ addToCart, deleteItem, deleteAllItems }}>
+    <CartContext.Provider
+      value={{ cartList, addToCart, deleteItem, deleteAllItems, updateQty }}
+    >
       {children}
     </CartContext.Provider>
   );

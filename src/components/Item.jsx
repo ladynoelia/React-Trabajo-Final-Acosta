@@ -9,11 +9,11 @@ function Item({ product }) {
           className="card-img-top"
           alt={product.title}
         />
-        <div className="card-body">
+        <div className="card-body d-flex flex-column">
           <h5 className="card-title">{product.title}</h5>
-          <p className="card-text">{product.description}</p>
+          <p className="card-text">{product.collection}</p>
           <p>$ {product.price}</p>
-          <Link to={`/product/${product.id}`}>
+          <Link to={`/product/${product.id}`} className="mt-auto">
             <button className="btn btn-vermas">Ver más</button>
           </Link>
         </div>

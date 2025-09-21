@@ -1,20 +1,11 @@
 import { useEffect, useState } from "react";
 import Item from "./Item";
 import { getItems } from "../services/products";
+/* import uploadItems from "../services/uploadItems"; */
 
 function ItemListContainer() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-
-  /*   const getProducts = () => {
-    return new Promise((resolve) => {
-      setTimeout(async () => {
-        const resp = await fetch("./src/components/db/mock.json");
-        const data = await resp.json();
-        resolve(data);
-      }, 2000);
-    });
-  }; */
 
   useEffect(() => {
     /* uploadItems(); */
