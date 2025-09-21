@@ -1,12 +1,16 @@
-# Hakushi
+## Trabajo final Curso de React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# FuwaFuwa Paradise
 
-Currently, two official plugins are available:
+## Descripción del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+FuwaFuwa Paradise es una tienda online especializada en peluches.
 
-## Expanding the ESLint configuration
+El proyecto tiene por objetivo simular un proceso de compra a través de la tienda.
+Los productos se obtienen consultando una base de datos en Firebase y se visualizan tanto en conjunto como por grupos temáticos.
+La tienda cuenta con un carrito de compras donde se pueden ver los productos agregados, modificar las cantidades de cada uno y eliminarlos de la sección.
+Luego, una vez que el cliente completa el formulario con sus datos, se genera un documento con la información del pedido y del cliente que se almacena en Firebase. Al mismo tiempo, se muestra esa misma información por consola, para verificar que la operación fue exitosa.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+La tienda está construida con React JS, con un diseño adaptado utilizando Bootstrap y gestionada mediante Firebase para la base de datos.
